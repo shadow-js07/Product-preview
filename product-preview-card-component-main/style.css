@@ -1,0 +1,116 @@
+*{
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background:hsl(30, 38%, 92%);
+}
+
+.container{
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container-items{
+    display: flex;
+    width: 500px;
+    height: 375px;
+    border: 1px solid transparent;
+    border-radius:10px ;
+    background: hsl(0, 0%, 100%);
+}
+
+img{
+    outline: 1px solid transparent;
+    border-radius: 10px 0 0 10px;
+    padding-right: 10px;
+}
+
+.text{
+    display: inline-block;
+    margin: 10px auto;
+    padding:  5px;
+    height: 375px;
+}
+
+h4, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+h4{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+.tittle{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: -5px;
+}
+
+p{
+    padding:5px 5px 10px 5px ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+}
+
+.prices{
+    display: flex;
+    margin: 5px auto;
+    padding: 10px 5px 10px 5px;
+    transform: translateY(-30px);
+    margin-bottom: -30px;
+}
+
+.price{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left:15px;
+    margin-top: 20px;
+}
+
+button{
+    background: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    border: transparent;
+    border-radius: 10px;
+    margin: -50px auto;
+    padding: 0 5px;
+    width: 210px;
+    height: 40px;
+}
+
+button a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+button:hover{
+    background: hsl(212, 21%, 14%);
+    cursor: pointer;
+} 
